@@ -15,7 +15,7 @@ const PostDetail = () => {
   const [updatedContent, setUpdatedContent] = useState('');
 
   useEffect(() => {
-    axios.get(`https://blog-app-backend-three-omega.vercel.app/api/posts/${id}`)
+    axios.get(`https://blogapp-backend-z57x.onrender.com/api/posts/${id}`)
       .then((response) => { 
         setPost(response.data);
         setUpdatedTitle(post.title);
@@ -50,7 +50,7 @@ const PostDetail = () => {
 
   const handleUpdate = () => {
     setIsEditing(false);
-    axios.put(`https://blog-app-backend-three-omega.vercel.app/api/posts/${id}`, {
+    axios.put(`https://blogapp-backend-z57x.onrender.com/api/posts/${id}`, {
       title: updatedTitle,
       content: updatedContent
     })
@@ -65,7 +65,7 @@ const PostDetail = () => {
   };
 
   const handleDelete = () => {
-    axios.delete(`https://blog-app-backend-three-omega.vercel.app/api/posts/${id}`)
+    axios.delete(`https://blogapp-backend-z57x.onrender.com/api/posts/${id}`)
       .then(() => {
         navigate('/');
       })

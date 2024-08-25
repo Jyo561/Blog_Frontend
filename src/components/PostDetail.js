@@ -122,8 +122,8 @@ const PostDetail = () => {
           <p>{truncateString(post.content)}</p>
           <br />
           <section className="flex justify-between">
-            <button className="inline-block rounded border px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-900 hover:text-indigo-900 focus:outline-none focus:ring active:bg-indigo-500 showbutton" onClick={() => setIsEditing(true)}>Update</button>
-            <button className="inline-block rounded border px-12 py-3 text-sm font-medium text-red-600 hover:bg-red-900 hover:text-red-900 focus:outline-none focus:ring active:bg-orange-500 showbutton" onClick={handleDelete}>Delete</button>
+            <button className="inline-block rounded border px-12 py-3 text-sm font-medium text-indigo-600 hover:text-indigo-900 showbutton" onClick={() => setIsEditing(true)}>Update</button>
+            <button className="inline-block rounded border px-12 py-3 text-sm font-medium text-red-600 hover:text-red-900 showbutton" onClick={handleDelete}>Delete</button>
             <button className="inline-block rounded border px-12 py-3 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none focus:ring active:bg-orange-500 showbutton" onClick={() => navigate('/')}>Back</button> 
           </section>
         </div>

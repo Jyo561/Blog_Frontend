@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://blog-app-backend-three-omega.vercel.app"
+  "proxy": "https://blog-app-backend-three-omega.vercel.app",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="flashcard-page">
       <header className="w-full">
-        <div className="flex h-16 max-w-screen-xl w-full items-center gap-8 px-4 sm:px-6 lg:px-8 ">
+        <div className="flex h-16 w-full items-center gap-8 px-4 sm:px-6 lg:px-8 ">
           <div>
           <a className="block text-teal-600" href="/">
             <span className="sr-only">Home</span>

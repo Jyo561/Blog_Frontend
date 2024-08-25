@@ -38,7 +38,7 @@ const PostList = () => {
   
   return (
     <div className="px-32">
-      <h1 className="text-center text-teal-600 text-lg">Blog Posts</h1>
+      <h1 className="text-center text-teal-600 text-4xl">Blog Posts</h1>
       <br />
       <ul className="listcolumn">
         {posts.map(post => (

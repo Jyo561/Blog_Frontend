@@ -35,8 +35,8 @@ code {
 }
 
 .keycard{
-  width: 100%;
-  border-radius: 50px;
+  width: 100% !important;
+  border-radius: 50px !important;
   background-color: #e0e0e0;
   box-shadow:  5px 5px 10px #bebebe,
              -5px -5px 10px #ffffff;
@@ -126,7 +126,7 @@ code {
 }
 
 .showbutton {
-  border-radius: 50px;
+  border-radius: 50px !important;
   background: #e0e0e0;
   box-shadow:  5px 5px 10px #c5c5c5,
                -5px -5px 10px #fbfbfb;

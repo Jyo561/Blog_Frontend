@@ -37,7 +37,7 @@ const NewPost = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('https://blog-app-backend-three-omega.vercel.app/api/posts', { title, content })
+    axios.post('https://blogapp-backend-z57x.onrender.com/api/posts', { title, content })
       .then(() => navigate('/'))
       .catch(error => console.error('There was an error creating the post!', error));
   };

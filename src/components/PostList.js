@@ -6,7 +6,7 @@ const PostList = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('https://blog-app-backend-three-omega.vercel.app/api/posts')
+    axios.get('https://blog-app-backend-mts4.vercel.app/api/posts')
       .then(response => setPosts(response.data))
       .catch(error => console.error('There was an error fetching the posts!', error));
   }, []);
